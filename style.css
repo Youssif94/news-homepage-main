@@ -1,0 +1,81 @@
+@import url('https://fonts.google.com/specimen/Inter');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Inter',sans-serif
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+}
+.section-1{
+    width: 100%;
+}
+
+.section-1>img{
+    object-fit: cover;
+    width: 97%;
+    height: fit-content;
+}
+
+.sub-section-1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 30px;
+}
+.sub-section-1>h1{
+    font-size: 52px;
+    /* margin-right: 60px; */
+    font-weight: 800;
+    line-height: 1;
+}
+.sub-section-1>div>p{
+    font-size: 18px;
+}
+.sub-section-1>div>button{
+    background-color:  hsl(5, 85%, 63%);
+    width: 60%;
+}
+.sub-section-1>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-2{
+    background-color: hsl(240, 100%, 5%);
+}
+
+.section-2>h3{
+    color: hsl(35, 77%, 62%);
+}
+
+.news>div>h4{
+    color: hsl(36, 100%, 99%);
+}
+
+.news>div>p{
+    color: hsl(233, 8%, 79%);
+}
