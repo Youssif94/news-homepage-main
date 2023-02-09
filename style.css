@@ -4,7 +4,8 @@
     margin: 0;
 }
 body{
-    font-family: 'Inter',sans-serif
+    font-family: 'Inter',sans-serif;
+    background-color: hsl(36, 100%, 99%);
 }
 .container{
     width: 79%;
